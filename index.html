@@ -6,16 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hexo</title>
+  <title>小虎的烘焙坊</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="为了每一份挚爱">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小虎的烘焙坊">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="小虎的烘焙坊">
+<meta property="og:description" content="为了每一份挚爱">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="小虎的烘焙坊" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -42,10 +44,10 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="/img/avatar.jpg" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author"><a href="/">John Doe</a></h1>
+		  <h1 class="header-author"><a href="/">周小虎</a></h1>
 		</hgroup>
 		
 
@@ -61,28 +63,18 @@
 		<nav class="header-smart-menu">
     		
     			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)" target="_blank" rel="noopener">所有文章</a>
-    			
             
     			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)" target="_blank" rel="noopener">友链</a>
-    			
             
-    			
-    			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)" target="_blank" rel="noopener">关于我</a>
     			
             
 		</nav>
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-		        
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="mail" target="_blank" href="/mailto:987158090@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
 			</div>
 		</nav>
@@ -100,10 +92,10 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="/img/avatar.jpg" class="js-avatar">
 			</div>
 			<hgroup>
-			  <h1 class="header-author js-header-author">John Doe</h1>
+			  <h1 class="header-author js-header-author">周小虎</h1>
 			</hgroup>
 			
 			
@@ -117,13 +109,9 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
 						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="mail" target="_blank" href="/mailto:987158090@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
 				</div>
 			</nav>
@@ -175,44 +163,10 @@
 <h2 id="Hexo是什么？"><a href="#Hexo是什么？" class="headerlink" title="Hexo是什么？"></a><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>是什么？</h2><p><code>A fast, simple &amp; powerful blog framework</code><br>Hexo 是一个快速/简单/强有力的博客框架</p>
 <h2 id="基础搭建过程"><a href="#基础搭建过程" class="headerlink" title="基础搭建过程"></a>基础搭建过程</h2><h3 id="1-安装node-js-和-git"><a href="#1-安装node-js-和-git" class="headerlink" title="1. 安装node.js 和 git"></a>1. 安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">node.js</a> 和 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a></h3><ul>
 <li>npm环境变量配置：node.js中自带npm，所以安装好后在Path处配置环境变量，通常node.js会自动配置：<code>C:\Program Files\nodejs\</code>，但就我遇到的情况，还得更具体到npm的位置，npm命令才能使用，即：<code>C:\Program Files\nodejs\node_modules\npm</code></li>
-<li>下载git后，git要先自报家门，参见<a href="http://www.cnblogs.com/gabygoole/p/4972633.html" target="_blank" rel="noopener">gabygoole’s 博客</a></li>
-</ul>
-<h3 id="2-安装Hexo-并hexo一个文件夹"><a href="#2-安装Hexo-并hexo一个文件夹" class="headerlink" title="2. 安装Hexo,并hexo一个文件夹"></a>2. 安装Hexo,并hexo一个文件夹</h3><ul>
-<li>桌面上打开<code>git bash</code>输入<code>$ npm install -g hexo-cli</code></li>
-<li>任意盘下创建你的blog文件夹,在该文件夹根目录下启动<code>git bash</code><br>输入：<code>$hexo init</code></li>
-</ul>
-<h3 id="3-设定主题"><a href="#3-设定主题" class="headerlink" title="3. 设定主题"></a>3. 设定<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">主题</a></h3><ul>
-<li>本博客采用<a href="https://github.com/wuchong/jacman" target="_blank" rel="noopener">jackman</a></li>
-<li>修改配置文件参照<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="noopener">jark’s blog</a></li>
-<li>注意： 在博客根目录下启用<code>git bash</code>输入<code>$git clone https://github.com/wuchong/jacman.git themes/jacman</code><br>其意在将主题clone到博客theme文件夹下，并命名jacman</li>
-</ul>
-<h3 id="4-关于博客目录下文件组成"><a href="#4-关于博客目录下文件组成" class="headerlink" title="4. 关于博客目录下文件组成"></a>4. 关于博客目录下<a href="https://hexo.io/docs/setup.html" target="_blank" rel="noopener">文件组成</a></h3><p>.<br>├──node_modules<br>├── _config.yml<br>├── package.json<br>├── scaffolds<br>├── scripts<br>├── source<br>|   ├── _drafts<br>|   └── _posts<br>└── themes</p>
-<ul>
-<li>_config.yml<br>该文件为网站的配置文件，依照框架的规定，进行配置即可，参见<a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="noopener">jark’s blog</a></li>
-<li>scaffolds<br>每当<code>$ hexo new [layout] &lt;filename&gt;</code>，都会基于<code>scaffolds</code>文件来创建文件，在<code>_config.yml</code>中设定的<code>default_layout: post</code>，默认即是里面的post方式</li>
-<li>themes<br>该文件夹下放置博客主题</li>
-<li>source<br>即使在根目录下<code>new</code>，也会把文件创建到<code>source/_posts</code>下</li>
-<li>node_modules<br>该文件夹下存放npm的插件</li>
-</ul>
-<h3 id="5-可能遇到的意外情况"><a href="#5-可能遇到的意外情况" class="headerlink" title="5. 可能遇到的意外情况"></a>5. 可能遇到的意外情况</h3><ul>
-<li>以下操作都在blog目录下操作</li>
-<li>第一次generate前执行<code>$npm install hexo-deployer-git --save</code>，然后才能generate和deploy</li>
-<li>先有了<code>hexo-migrator-rss</code>这个插件才能迁移<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Gaby@Gaby-PC MINGW64 /c/blog</span><br><span class="line">$ npm install hexo-migrator-rss --save</span><br><span class="line">hexo-migrator-rss@0.1.2 node_modules\hexo-migrator-rss</span><br></pre></td></tr></table></figure>
-后安装<code>hexo-generator-feed</code>插件，别人能订阅我们搭建的博客，我们也能从自己其他博客通过RSS迁移我们文章到我们搭建的博客<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Gaby@Gaby-PC MINGW64 /c/blog</span><br><span class="line">$ npm install hexo-generator-feed --save</span><br><span class="line">hexo-generator-feed@1.0.3 node_modules\hexo-generator-feed</span><br><span class="line">├── object-assign@3.0.0</span><br><span class="line">└── ejs@1.0.0</span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p>安装以上插件后执行：<code>$ hexo migrate rss &lt;source&gt;</code> source即为xml路径(网址或者本地路径)</p>
-<p>若有任一个插件未安装都将报错如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Gaby@Gaby-PC MINGW64 /c/blog</span><br><span class="line">$ hexo migrate rss http://feed.cnblogs.com/blog/u/226073/rss</span><br><span class="line">undefined migrator plugin is not installed.</span><br><span class="line"></span><br><span class="line">Installed migrator plugins:</span><br><span class="line"></span><br><span class="line">For more help, you can check the online docs: http://hexo.io/</span><br></pre></td></tr></table></figure>
-<p>安装以上<br><code>http://feed.cnblogs.com/blog/u/226073/rss</code><br>这个是<a href="http://www.cnblogs.com/gabygoole/" target="_blank" rel="noopener">我的博客园博客</a>首页的订阅按钮下的xml地址</p>
-<h3 id="6-参考资源"><a href="#6-参考资源" class="headerlink" title="6. 参考资源"></a>6. 参考资源</h3><ul>
-<li><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="noopener">zipperary’s hexo教程</a></li>
-<li><a href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown" target="_blank" rel="noopener">markdown教程</a></li>
-<li><a href="https://hexo.io/docs/" target="_blank" rel="noopener">hexo文档</a></li>
-<li><a href="http://wuchong.me/blog/2014/11/20/how-to-use-jacman/" target="_blank" rel="noopener">jark’s blog</a></li>
-</ul>
-
+<li>下载git后，git要先自报家门，参见<a href="http://www.cnblogs.com/gabygoole/p/4972633.html" target="_blank" rel="noopener">gabygoole’s 博客</a>
+        
+          <a class="article-more-a" href="/2019/11/22/%E5%B0%8F%E8%99%8E%E7%9A%84%E7%83%98%E7%84%99%E5%9D%8A/#more">more >></a>
+        
       
 
       
@@ -339,7 +293,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2019 John Doe
+    		&copy; 2019 周小虎
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -359,7 +313,7 @@
 		open_in_new: false,
 		toc_hide_index: true,
 		root: "/",
-		innerArchive: true,
+		innerArchive: false,
 		showTags: false
 	}
 </script>
@@ -376,15 +330,9 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      
-      
     
       
-      
-      
     
-      
-      
       
     
     
@@ -393,117 +341,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:innerArchive">所有文章</a></li>
-      
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:friends">友链</a></li>
-      
         
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" target="_blank" rel="noopener" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
   </div>
   <div class="tools-wrap">
     
-    	<section class="tools-section tools-section-all" q-show="innerArchive">
-        <div class="search-wrap">
-          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
-          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
-          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
-        </div>
-        <div class="widget tagcloud search-tag">
-          <p class="search-tag-wording">tag:</p>
-          <label class="search-switch">
-            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
-          </label>
-          <ul class="article-tag-list" q-show="showTags">
-            
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-        <ul class="search-ul">
-          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
-            缺失模块。<br/>1、请确保node版本大于6.2<br/>2、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
-            3、在根目录_config.yml里添加配置：
-<pre style="font-size: 12px;" q-show="jsonFail">
-  jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-</pre>
-          </p>
-          <li class="search-li" q-repeat="items" q-show="isShow">
-            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
-            <p class="search-time">
-              <i class="icon-calendar icon"></i>
-              <span q-text="date|dateformat"></span>
-            </p>
-            <p class="search-tag">
-              <i class="icon-price-tags icon"></i>
-              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
-            </p>
-          </li>
-        </ul>
-    	</section>
-    
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
-    
-    	<section class="tools-section tools-section-me" q-show="aboutme">
-  	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
-  	  	
-    	</section>
     
   </div>
   

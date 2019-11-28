@@ -45,6 +45,7 @@ input:focus, textarea:focus {
 
 .portfolio-content img {
 	width: 100%;
+	padding-top: 20px;
 }
 
 .portfolio-content a {
